@@ -1,6 +1,6 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
-describe('AppComponent', () => {
+fdescribe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
@@ -13,15 +13,15 @@ describe('AppComponent', () => {
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   }));
-  it(`should have as title 'SpringBootAngular-ToDo'`, async(() => {
+  it(`should have as title 'Spring Boot & Angular-ToDo Project`, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('SpringBootAngular-ToDo');
+    expect(app.title).toEqual('Spring Boot & Angular-ToDo Project');
   }));
   it('should render title in a h1 tag', async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to SpringBootAngular-ToDo!');
+    expect(compiled.querySelector('h1').textContent).toContain('Spring Boot & Angular-ToDo Project');
   }));
 });
