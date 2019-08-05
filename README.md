@@ -30,9 +30,9 @@ The to-do application was create to track daily tasks.
 * GIT (obviously)
 
 ######  The Java Journey Series includes the following JAVA applications on GIT:
-* <a href="https://github.com/marvtdawson/emailAdminApp">Email Admin Application</a>
-* New Bank Account
-* Build A Student Database Application
+* <a href="https://github.com/marvtdawson/emailAdminApp">Java Email Admin Application</a>
+* Java New Bank Account
+* Java Student Database Application
 * Spring MVC ToDo List
 * Spring MVC & Hibernate - Build A Complete Database Web App
 * Spring Guess The Number Game 
