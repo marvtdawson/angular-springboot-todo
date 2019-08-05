@@ -13,6 +13,7 @@ import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { LogoutComponent } from './logout/logout.component';
 import { SiteDataService } from '../providers/site-data/site-data.service';
+import { HttpClientModule } from '@angular/common/http';
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
@@ -38,7 +39,8 @@ const routes: Routes = [
     BrowserModule,
     FormsModule,
     // AppRoutingModule
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    HttpClientModule
   ],
   exports: [RouterModule],
   providers: [SiteDataService],
