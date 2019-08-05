@@ -5,29 +5,27 @@
 The Java Journey Series is my learning path to Java mastery.  It consist of a series of Java applications
 created using the Java programming language and various tools and frameworks.
 
-## Spring Boot & Angular To-Do Application
+## Spring Boot 5 & Angular 6 To-Do Application
 
-The email admin app is a basic Java web application that allows university administrative employees to send internal emails.  
-
-##### Class
-
-The application capture various class fields such as:
+The to-do application was create to track daily tasks.  
 
 #### This project was developed with: 
 
-* Java 11\
-* Spring Boot 5\
-* Package: "com.marvintdawson.rest.webservices.restfulwebservices"\
-* Build Tool: Maven\
-* Angular 6\
+* Java 11 SDK
+* Spring Boot 5
+* JPA
+* Hibernate
+* Angular 6
 * TypeScript 2
-* MySQL 
+* Build Tool: Maven & Spring Initializer
+* Front-End Server: Angular CLI
+* Back-End Server: Tomcat
 
 ##### Tools used:
 
-* Eclipse
+* Eclipse IDE for Java Developer 2019
 * WebStorm
-* MySQL Workbench
+* Hibernate
 * Linux Command Line
 * GIT (obviously)
 
