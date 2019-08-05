@@ -8,6 +8,8 @@ created using the Java programming language and various tools and frameworks.
 ## Spring Boot 5 & Angular 6 To-Do Application
 
 The to-do application was create to track daily tasks.  
+This application based on a Udemy.com course titled "Go Full Stack with Spring Boot and Angular" developed by in28Minutes.
+
 
 #### This project was developed with: 
 
@@ -35,7 +37,7 @@ The to-do application was create to track daily tasks.
 * Java Student Database Application
 * Spring MVC ToDo List
 * Spring MVC & Hibernate - Build A Complete Database Web App
-* Spring Guess The Number Game 
+* <a href="https://github.com/marvtdawson/timbu-java-springboot-GuessTheNumberGame">Spring 5 Guess The Number Game </a> 
 * <a href="https://github.com/marvtdawson/angular-springboot-todo">Spring Boot 5 & Angular 6 - ToDo Application</a>
 * Spring Boot 5 - Java Web Service with RESTful API
 * MVC Application using JSP & Servlets

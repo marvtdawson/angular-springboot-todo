@@ -1,14 +1,17 @@
 <div class="row">
   <h1>Login</h1>
 </div>
-<div class="alert alert-warning" *ngIf='invaliddLogin'>
+<div class="alert alert-warning" *ngIf='invalidLogin'>
   {{ errorMessage }}
 </div>
 <div class="row">
+  <div class="col">
     User Name: <input
     [(ngModel)]="username"
     name="username"
     type="text">
     Password: <input name="password" type="password" [(ngModel)]="password">
     <button class="btn btn-success" (click)="onLogin()">Login</button>
+  </div>
+  <div class="col">Some RESTful API display here!</div>
 </div>
