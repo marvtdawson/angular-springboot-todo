@@ -1,4 +1,4 @@
-# The Java Journey Series - Spring Boot & Angular To-Do Application
+# The Java Journey Series - Spring Boot 5 & Angular 6: To-Do Application
 
 ![](src/assets/java_jouney_series_spring_boot_angular_todo_application.jpeg)
 
