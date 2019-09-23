@@ -1,14 +1,14 @@
-# The Java Journey Series - Spring Boot 5 & Angular 6: To-Do Application
+# The Java Journey Series - Spring Boot 5 & Angular 6: ToDo Application
 
 ![](src/assets/java_jouney_series_spring_boot_angular_todo_application.jpeg)
 
 The Java Journey Series is my learning path to Java mastery.  It consist of a series of Java applications
 created using the Java programming language and various tools and frameworks.
 
-## Spring Boot 5 & Angular 6 To-Do Application
+## Spring Boot 5 & Angular 6 ToDo Application
 
-The to-do application was create to track daily tasks.  
-This application based on a Udemy.com course titled "Go Full Stack with Spring Boot and Angular" developed by in28Minutes.
+The ToDo application was create to track daily tasks.  
+This application is based on a Udemy.com course titled "Go Full Stack with Spring Boot and Angular" developed by in28Minutes.
 
 
 #### This project was developed with: 
@@ -16,7 +16,7 @@ This application based on a Udemy.com course titled "Go Full Stack with Spring B
 * Java 11 SDK
 * Spring Boot 5
 * JPA
-* Hibernate
+* Hibernate (H2)
 * Angular 6
 * TypeScript 2
 * Build Tool: Maven & Spring Initializer
@@ -27,7 +27,7 @@ This application based on a Udemy.com course titled "Go Full Stack with Spring B
 
 * Eclipse IDE for Java Developer 2019
 * WebStorm
-* Hibernate
+* Hibernate (H2)
 * Linux Command Line
 * GIT (obviously)
 
