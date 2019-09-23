@@ -3,7 +3,7 @@
 ![](src/assets/java_jouney_series_spring_boot_angular_todo_application.jpeg)
 
 The Java Journey Series is my learning path to Java mastery.  It consist of a series of Java applications
-created using the Java programming language and various tools and frameworks.
+created using the Java programming language with various tools and frameworks.
 
 ## Spring Boot 5 & Angular 6 ToDo Application
 
@@ -39,6 +39,7 @@ This application is based on a Udemy.com course titled "Go Full Stack with Sprin
 * Spring MVC & Hibernate - Build A Complete Database Web App
 * <a href="https://github.com/marvtdawson/timbu-java-springboot-GuessTheNumberGame">Spring 5 Guess The Number Game </a> 
 * <a href="https://github.com/marvtdawson/angular-springboot-todo">Spring Boot 5 & Angular 6 - ToDo Application</a>
+* <a href="#">Spring Boot 5 & ReactJS 16 - ToDo Application</a>
 * Spring Boot 5 - Java Web Service with RESTful API
 * MVC Application using JSP & Servlets
 * MultiLingual Application using JSP & Servlets
