@@ -11,6 +11,7 @@ export class WelcomeComponent implements OnInit {
 
   siteName = this.siteData.siteName;
   welcomeMessageFromService: string;
+  name: string;
   constructor(private siteData: SiteDataService,
               private welcomeService: WelcomeDataService) { }
 
@@ -25,6 +26,16 @@ export class WelcomeComponent implements OnInit {
     );
    // console.log('Last Line of Get Welcome Response');
   }
+
+  getWelcomeMessageWithParameter() {
+    // console.log(this.welcomeService.executeHelloWorldBeanService());
+    this.welcomeService.executeHelloWorldBeanServiceWithPathVariable(this.name).subscribe(
+      response => this.handleSuccessfulResponse(response),
+      error => this.handleErrorResponse(error)
+    );
+    // console.log('Last Line of Get Welcome Response');
+  }
+
   // get response data
   handleSuccessfulResponse(response) {
     this.welcomeMessageFromService = response.message;
