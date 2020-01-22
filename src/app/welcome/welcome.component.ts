@@ -13,14 +13,14 @@ export class WelcomeComponent implements OnInit {
   welcomeMessageFromService: string;
   name: string;
   constructor(private siteData: SiteDataService,
-              private welcomeService: WelcomeDataService) { }
+              private welcomeDataService: WelcomeDataService) { }
 
   ngOnInit() {
   }
 
   getWelcomeMessage() {
    // console.log(this.welcomeService.executeHelloWorldBeanService());
-    this.welcomeService.executeHelloWorldBeanService().subscribe(
+    this.welcomeDataService.executeHelloWorldBeanService().subscribe(
       response => this.handleSuccessfulResponse(response),
       error => this.handleErrorResponse(error)
     );
@@ -29,10 +29,11 @@ export class WelcomeComponent implements OnInit {
 
   getWelcomeMessageWithParameter() {
     // console.log(this.welcomeService.executeHelloWorldBeanService());
-    this.welcomeService.executeHelloWorldBeanServiceWithPathVariable(this.name).subscribe(
-      response => this.handleSuccessfulResponse(response),
-      error => this.handleErrorResponse(error)
-    );
+    this.welcomeDataService.executeHelloWorldBeanServiceWithPathVariable(this.name)
+      .subscribe(
+        response => this.handleSuccessfulResponse(response),
+        error => this.handleErrorResponse(error)
+      );
     // console.log('Last Line of Get Welcome Response');
   }
 

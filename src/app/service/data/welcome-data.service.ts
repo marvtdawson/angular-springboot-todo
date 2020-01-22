@@ -12,6 +12,7 @@ export class WelcomeDataService {
 
   constructor(private http: HttpClient) { }
 
+  // http://localhost:8080/hello-world-bean
   executeHelloWorldBeanService() {
     return this.http.get<HelloWorldBean>('http://localhost:8080/hello-world-bean');
     // console.log('Execute Hello World Bean Service');
