@@ -1,0 +1,16 @@
+.username,
+.password {
+  display: flex;
+  margin: 20px auto;
+  width: 300px;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 300px;
+  margin: auto;
+}
+
+.button-container button {
+  margin: 3px;
+}

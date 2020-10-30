@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
+import {HardcodedAuthenticationService} from '../service/hardcoded-auth/hardcoded-authentication.service';
+import { MDCTextField } from '@material/textfield';
+import { MDCRipple } from '@material/ripple';
 
 @Component({
   selector: 'app-login',
@@ -13,14 +16,14 @@ export class LoginComponent implements OnInit {
   errorMessage = 'Invalid Credentials';
   invalidLogin = false;
 
-  constructor(private router: Router) { }
+  constructor(private router: Router,
+              private hardcodedAuthentication: HardcodedAuthenticationService) { }
 
   ngOnInit() {
   }
 
   onLogin() {
-    console.log(this.username);
-    if (this.username === 'marvintdawson' && this.password === 'abc123') {
+    if (this.hardcodedAuthentication.authenticate(this.username, this.password)) {
       // Redirect to Welcome Page
       this.router.navigate(['welcome', this.username]).then().catch();
       this.invalidLogin = false;

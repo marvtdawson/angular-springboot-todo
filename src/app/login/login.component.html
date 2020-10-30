@@ -6,12 +6,36 @@
 </div>
 <div class="row">
   <div class="col">
-    User Name: <input
-    [(ngModel)]="username"
-    name="username"
-    type="text">
-    Password: <input name="password" type="password" [(ngModel)]="password">
-    <button class="btn btn-success" (click)="onLogin()">Login</button>
+    <label class="mdc-text-field mdc-text-field--filled username">
+      <span class="mdc-text-field__ripple"></span>
+      <input
+        [(ngModel)]="username"
+        name="username"
+        type="text" class="mdc-text-field__input">
+      <span class="mdc-floating-label" id="username-label">Username*</span>
+      <span class="mdc-line-ripple"></span>
+    </label>
+    <label class="mdc-text-field mdc-text-field--filled password">
+      <span class="mdc-text-field__ripple"></span>
+      <input name="password" type="password" [(ngModel)]="password" class="mdc-text-field__input">
+      <span class="mdc-floating-label" id="password-label">Password*</span>
+      <span class="mdc-line-ripple"></span>
+    </label>
+
+    <div class="button-container">
+      <button type="button" class="mdc-button cancel">
+        <div class="mdc-button__ripple"></div>
+        <span class="mdc-button__label">
+      Cancel
+    </span>
+      </button>
+      <button class="mdc-button mdc-button--raised next" (click)="onLogin()">
+        <div class="mdc-button__ripple"></div>
+        <span class="mdc-button__label">
+      Login
+    </span>
+      </button>
+    </div>
   </div>
   <div class="col">Some RESTful API display here!</div>
 </div>
